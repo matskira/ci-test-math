@@ -9,5 +9,4 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: '8'
-      - run:
-          command: mvn package
+      - run: mvn package

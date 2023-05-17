@@ -10,5 +10,4 @@ jobs:
           distribution: 'temurin'
           java-version: '8'
       - run:
-          name: Build with Maven
           command: mvn package
